@@ -24,7 +24,8 @@ It can detect and track multiple types of vehicles (cars, buses, trucks, motorbi
   - A **road traffic video** → `road_traffic.mp4`  
   - A **mask image** → `mask.png`
   - Download the input video from the drive link provided below and add it in the very project folder.
-  - `https://drive.google.com/file/d/1jyy8Qgkm152wie2OlXwP7zs3EpLhNAyP/view?usp=sharing`
+    ```python
+    https://drive.google.com/file/d/1jyy8Qgkm152wie2OlXwP7zs3EpLhNAyP/view?usp=sharing
 ### 🧩 2. Preprocessing
 - The mask is **resized** to match the video dimensions.  
 - The relevant region is extracted using:
