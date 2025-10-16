@@ -20,8 +20,8 @@ class_names = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "tra
               "microwave", "oven", "toaster", "sink", "refrigerator", "book", "clock", "vase", "scissors",
               "teddy bear", "hair drier", "toothbrush"]
 
-source_path = "../Video/road_traffic.mp4"
-output_path = "../Video/road_traffic_output.mp4"
+source_path = "road_traffic.mp4"
+output_path = "road_traffic_output.mp4"
 mask_path = "mask.png"
 
 source = cv2.VideoCapture(source_path, cv2.CAP_FFMPEG)
